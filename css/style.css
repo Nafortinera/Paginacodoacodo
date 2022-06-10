@@ -1,0 +1,222 @@
+*{
+   /* padding: 0; */
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    
+    height: 80px;
+    width: 100%;
+}
+.enlace {
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo {
+    height: 60px;
+    position: initial;
+    padding: 30px 50px;
+}
+
+
+html {
+    font-size: 1rem;
+    height: 100%;
+}
+
+body, header, main, footer {
+    /*border: 3px blue solid;*/
+    min-height: 50px;
+    margin: 0.5rem;
+    min-width: 400px;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: inherit;
+}
+
+main {
+    min-height: 200px;
+    overflow: auto;
+    background-color: white solid;
+}
+
+header {
+background-color: lavenderblush;
+box-shadow: 0  0  0.5rem rgb(83 78 76 / 100%);
+font-family: initial;
+}
+
+center {
+    display: flex;
+    justify-content: right;
+    padding: 40px;
+    height: 80vh;
+}
+footer {
+    background-color: antiquewhite;
+    
+}
+
+/* contenido principal */
+main>div {
+    /*border: 2px violet solid;*/
+    min-height: 1500px;
+    margin: 0.5rem;
+    height: auto;
+    float: left;
+    width: 65%;
+}
+/*GIF*/
+main>aside{
+    /*border: 2px violet solid;*/
+    min-height: 150px;
+    margin: 0.5rem;
+    min-width: 28%;
+    float: left;
+    width: auto;
+}
+.secciones {
+    /*border: 2px green solid;*/
+    min-height: 30px;
+    margin: 0.5rem;
+    float: center;
+    width: auto;
+
+}
+.secciones article {
+    /*border: 2px purple solid;*/
+    margin: 0.5rem;
+    min-height: 20px;
+    font-family: cursive;
+    text-align: right;
+    text-shadow: pink/ 100%;
+
+}
+#jpeg-ppal {
+    width: 100%;
+    justify-content: center;
+}
+.letras {
+    text-shadow: pink 100%;
+}
+/* menu logo */
+.header-logo {
+position:relative;
+width: min-content;
+display: inline-block;
+margin: 0 0.5rem 0;
+list-style: none;
+
+}
+
+/* menu opciones*/
+.style-menu {
+    /*border: 2px salmon solid;*/
+    background: #ff165d;
+    color: black;
+    padding: 10px 30px;
+ 
+
+}
+.header-menu ul {
+    list-style: none;
+    font-family: sans-serif;
+
+}
+.header-menu li {
+    float: left;
+    font-weight: 900%;
+    text-align: left;
+    margin: 0 0.5rem 0;
+    
+}
+.header-menu a {
+    background: #ff165d;
+    text-decoration: none;
+    font-family: initial;
+}
+.header-menu a:hover {
+    color: blueviolet;
+}
+.header-menu li a {
+    font-size: 1.5rem;
+    background: transparent;
+
+}
+.form-contact {
+    margin: -10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-contact {
+    background-color: #FFF;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-150%, 150%);
+    box-shadow: 7px 13px 10px rgba(0, 0, 0, .8 );
+    
+
+}
+/*pantalla del fondo*/
+header {
+    width: 100%;
+    background-color: #ff165d;
+    overflow: hidden;
+    color: white;
+
+}
+header span {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 5rem; 
+    
+}
+.contact {
+    padding: .8rem;
+    overflow: hidden;
+    color: gray;
+}
+.contact label, .contact input, .contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    
+
+}
+.contact label {
+    font-weight: 700;
+}
+.contact input .contact textarea {
+    border: none;
+    border-bottom: 2px solid #ff165d;
+    margin-bottom: 20px;
+    font-size: 20px;
+    outline: none;
+    color: gray;
+
+}
+.contact textarea {
+    min-height: 100px;
+}
+.input [type= 'submit'] {
+    padding: 10px;
+    border: none;
+    background-color: #ff165d;
+    color: white;
+    font-size:  20px;
+    cursor: pointer;
+
+}
