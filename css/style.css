@@ -91,7 +91,7 @@ main>aside{
 .secciones article {
     /*border: 2px purple solid;*/
     margin: 0.5rem;
-    min-height: 20px;
+    min-height: 30px;
     font-family: cursive;
     text-align: right;
     text-shadow: pink/ 100%;
