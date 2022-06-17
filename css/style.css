@@ -144,12 +144,12 @@ margin: 0.5rem;
 }
 .header-menu a {
     /*background: #ff165d;*/
-    color:blueviolet;
+    color: darkmagenta;
     text-decoration: none;
     font-family: initial;
 }
 .header-menu a:hover {
-    color: darkmagenta;
+    color:blueviolet;
 }
 .header-menu li a {
     font-size: 1.5rem;
