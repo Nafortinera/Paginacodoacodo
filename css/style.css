@@ -124,6 +124,10 @@ list-style: none;
 
 }
 /*menu*/
+.header-menu{
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
 .header-menu ul {
     list-style: none;
     font-family: sans-serif;
@@ -133,7 +137,7 @@ list-style: none;
     float: left;
     font-weight: 900%;
     text-align: center;
-    margin: 0 0.5rem 0;
+    /*margin: 0 0.5rem 0;*/
     
 }
 .header-menu a {
