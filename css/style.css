@@ -106,12 +106,12 @@ main>aside{
 }
 /* menu logo */
 .header-logo {
-position:relative;
+/*position:relative;*/
 /*width: min-content;*/
 width: auto;
 display: inline-block;
 margin: 0.5rem;
-list-style: none;
+/*list-style: none;*/
 
 }
 
@@ -121,7 +121,11 @@ list-style: none;
     background: #ff165d;
     color: black;
     padding: 10px 30px;
- /*margin: 0.5rem 0 0.5rem 1rem;*/
+    /*margin: 0.5rem 0 0.5rem 1rem;*/
+    position:relative;
+    left: auto;
+    top: auto;
+    width: auto;
 
 }
 
