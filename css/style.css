@@ -143,18 +143,20 @@ margin: 0.5rem;
     
 }
 .header-menu a {
-    background: #ff165d;
+    /*background: #ff165d;*/
+    color:blueviolet;
     text-decoration: none;
     font-family: initial;
 }
 .header-menu a:hover {
-    color: blueviolet;
+    color: darkmagenta;
 }
 .header-menu li a {
     font-size: 1.5rem;
     background: transparent;
-
+    
 }
+
 .form-contact {
     margin: -10px auto;
     padding: 10px;
