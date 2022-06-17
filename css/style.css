@@ -123,6 +123,7 @@ list-style: none;
  
 
 }
+/*menu*/
 .header-menu ul {
     list-style: none;
     font-family: sans-serif;
@@ -131,7 +132,7 @@ list-style: none;
 .header-menu li {
     float: left;
     font-weight: 900%;
-    text-align: left;
+    text-align: center;
     margin: 0 0.5rem 0;
     
 }
