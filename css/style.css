@@ -31,7 +31,7 @@ body, header, main, footer {
     /*border: 3px blue solid;*/
     min-height: 60px;
     margin: 0.5rem;
-    min-width: 200px;
+    min-width: 400px;
 }
 
 body {
