@@ -184,7 +184,7 @@ margin: 0.5rem;
 
 }
 /*pantalla del fondo*/
-header .form-contact {
+header {
     width: 100%;
     background-color: #ff165d;
     overflow: hidden;
