@@ -93,7 +93,7 @@ main>aside{
     margin: 0.5rem;
     min-height: 30px;
     font-family: cursive;
-    text-align: right;
+    text-align: center;
     text-shadow: pink/ 100%;
 
 }
@@ -101,7 +101,7 @@ main>aside{
     width: 100%;
     justify-content: center;
 }
-.letras {
+/*.letras {
     text-shadow: pink 100%;
     text-align: center;
 }
