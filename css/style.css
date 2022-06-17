@@ -65,7 +65,7 @@ footer {
 /* contenido principal */
 main>div {
     /*border: 2px violet solid;*/
-    min-height: 1500px;
+    min-height: 150px;
     margin: 0.5rem;
     height: auto;
     float: left;
