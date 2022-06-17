@@ -178,7 +178,7 @@ margin: 0.5rem;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-150%, -150%);
+    transform: translate(150%, -150%);
     box-shadow: 7px 13px 37px rgba(0, 0, 0, .8 );
     
 
