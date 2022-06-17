@@ -103,6 +103,7 @@ main>aside{
 }
 .letras {
     text-shadow: pink 100%;
+    text-align: center;
 }
 /* menu logo */
 .header-logo {
