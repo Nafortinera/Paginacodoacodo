@@ -215,7 +215,7 @@ header span {
 }
 .contact input .contact textarea {
     border: none;
-    border-bottom: 2px solid #ff165d;
+    /*border-bottom: 2px solid #ff165d;*/
     margin-bottom: 20px;
     font-size: 20px;
     outline: none;
