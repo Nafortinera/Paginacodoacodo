@@ -228,7 +228,7 @@ header span {
 .input [type= 'submit'] {
     padding: 10px;
     border: none;
-    /*background-color: #ff165d;*/
+    background-color: #ff165d;
     color: white;
     font-size:  20px;
     cursor: pointer;
