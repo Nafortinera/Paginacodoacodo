@@ -109,7 +109,7 @@ main>aside{
 position:relative;
 width: min-content;
 display: inline-block;
-margin: 0.5rem 0 0.5rem 1rem;
+/*margin: 0.5rem 0 0.5rem 1rem;*/
 list-style: none;
 
 }
@@ -133,7 +133,7 @@ list-style: none;
     float: left;
     font-weight: 900%;
     text-align: center;
-    /*margin: 0 0.5rem 0;*/
+    margin: 0 0.5rem 0;
     
 }
 .header-menu a {
