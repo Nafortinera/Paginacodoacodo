@@ -195,9 +195,9 @@ header {
 }
 header span {
     font-size: 100px;
-    display: block;
+    /*display: block;*/
     text-align: center;
-    padding: 5rem; 
+    padding: 2.5rem; 
     
 }
 .contact {
