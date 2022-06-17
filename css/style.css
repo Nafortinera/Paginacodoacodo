@@ -156,6 +156,10 @@ margin: 0.5rem;
     background: transparent;
     
 }
+.header-living {
+    width: auto;
+    margin: 0 0.5rem 0;
+}
 
 .form-contact {
     margin: -10px auto;
