@@ -109,23 +109,19 @@ main>aside{
 position:relative;
 width: min-content;
 display: inline-block;
-margin: 0 0.5rem 0;
+margin: 0.5rem 0 0.5rem 1rem;
 list-style: none;
 
 }
 
 /* menu opciones*/
-.style-menu {
+.header-menu {
     /*border: 2px salmon solid;*/
     background: #ff165d;
     color: black;
     padding: 10px 30px;
  
 
-}
-/*menu*/
-.header-menu{
-    margin: 0.5rem 0 0.5rem 1rem;
 }
 
 .header-menu ul {
