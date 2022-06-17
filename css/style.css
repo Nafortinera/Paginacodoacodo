@@ -160,7 +160,8 @@ margin: 0.5rem;
 .header-living {
     width:max-content;
     margin: 0 0.5rem 0;
-    font-weight: 800;
+    font-weight: 1000;
+    text-transform: lowercase;
 }
 
 .form-contact {
