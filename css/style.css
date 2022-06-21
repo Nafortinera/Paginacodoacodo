@@ -181,7 +181,6 @@ margin: 0.5rem;
     transform: translate(1500%, 150%);
     box-shadow: 7px 13px 25px rgba(0, 0, 0, .8 );
     
-
 }
 /*pantalla del fondo*/
 header {
@@ -213,6 +212,7 @@ header span {
 .contact label {
     font-weight: 700;
 }
+
 .contact input:not([type= 'submit']) .contact textarea {
     border: none;
     border-bottom: 2px solid #ff165d;
