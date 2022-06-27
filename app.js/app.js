@@ -10,7 +10,9 @@ form.addEventListener ("submit", e=>{
     let regexCorreo= /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
     if(nombre.value.length <6){
         container +=`El nombre no es valido` <br>
-    if (regexCorreo.test(email.value))
+
+    if (!regexCorreo.test(email.value))
+        container +=`El nombre no es valido` <br>
        
     }
 })
