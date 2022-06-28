@@ -2,7 +2,7 @@ const nombres = document.getElementById ("nombres")
 const correo = document.getElementById ("correo")
 const comentarios = document.getElementById ("comentarios")
 const form = document.getElementById ("form")
-const container = document.getElementById ("row")
+const container = document.getElementById ("container")
 
 form.addEventListener ("submit", e=>{
     e.preventDefault ()
