@@ -22,38 +22,31 @@
     </nav>
     </header>
 
-<h2>Escribinos</h2>
 
+  <form action="" method="POST" id="form">
+    <div class="form">
+      <h2>Escribinos</h2>
 
-<div class="container">
-  <form action="/action_page.php">
-  <div class="row">
-    <div class="col-25">
-      <label for="nombres">Nombres</label>
+    <div class="grupo">
+    
+     <input type="text" id="nombre" name="nombre" placeholder="Tu nombre...">
+     <label for="">Nombre</label>
     </div>
-    <div class="col-75">
-      <input type="text" id="nombres" name="nombres" placeholder="Tu nombre...">
+  
+  <div class="grupo">
+      <input type="text" id="email" name="email" placeholder="Tu email...">
+      <label for="correo">Email</label>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="correo">Correo</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="Correo" name="Correo" placeholder="Correo electronico...">
-    </div>
-    </div>
-  <div class="row">
-    <div class="col-25">
+    <div class="grupo">
+      <input type="text" id="comentarios" name="comentarios" placeholder="Dejanos tus comentarios...">
       <label for="subject">Comentarios</label>
     </div>
-    <div class="col-75">
       <textarea id="comentarios" name="comentarios" placeholder="Dejanos tus comentarios..." style="height:200px"></textarea>
-    </div>
-  </div>
+      </div>
   <br>
-  <div class="row">
-    <input type="submit" value="Enviar">
+  <div class="grupo">
+    <button input type="submit">Enviar</button>
+    <p class="warnings" id="warnings"></p>
   </div>
   </form>
 </div>
