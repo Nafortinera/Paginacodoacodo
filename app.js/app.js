@@ -1,5 +1,5 @@
-const nombre = document.getElementById ("nombres")
-const email = document.getElementById ("correo")
+const nombre = document.getElementById ("nombre")
+const email = document.getElementById ("email")
 const comentarios = document.getElementById ("comentarios")
 const form = document.getElementById ("form")
 const warnings = document.getElementById ("container")
