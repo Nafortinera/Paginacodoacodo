@@ -192,12 +192,14 @@ input[type=text], select, textarea {
   /*resize: vertical;*/
   box-sizing: border-box;
   margin: 8px 0;
-}
-
-label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
+
+/*label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}*/
 
 input[type=submit] {
   width: 100%;
