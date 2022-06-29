@@ -185,7 +185,7 @@ header span {
 }
 
 input[type=text], select, textarea {
-  width: 50%;
+  width: 80%;
   padding: 12px 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
